@@ -1,0 +1,5 @@
+for i in range(5):
+    with open(f"arquivo_{i}.txt", "w") as f:
+        f.write("Arquivo criado com Python\n")
+
+print("Arquivos criados!")
